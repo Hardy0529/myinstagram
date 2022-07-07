@@ -1,0 +1,187 @@
+.loginpage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginpage__main {
+  display: flex;
+  margin-top: 32px;
+}
+.loginpage__exhibit {
+  display: none;
+}
+@media (min-width: 876px) {
+  .loginpage__exhibit {
+    display: block;
+  }
+}
+
+.loginpage__logo {
+  width: 175px;
+  margin-top: 25px;
+}
+.loginpage_rightcomponent {
+  width: 350px;
+  padding-bottom: 25px;
+  border: 1px solid #dbdbdb;
+  margin-top: 25px;
+  text-align: center;
+  background-color: white;
+}
+.loginPage__signin {
+  margin-top: 25px;
+}
+.logipage__text {
+  width: 270px;
+  height: 36px;
+  margin: 5px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.login__button {
+  width: 270px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+  border: 1px solid #0395f6;
+  background-color: #0395f6;
+  color: white;
+  cursor: pointer;
+}
+.login__ordiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.login__dividor {
+  width: 80px;
+  height: 0px;
+  margin-top: 6px;
+  border: 1px solid #dbdbdb;
+}
+.login__or {
+  margin: 0px 10px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+.social__login__button {
+  width: 270px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+  background-color: #fff;
+  background-image: linear-gradient(-180deg, #fff 0%, #fcfcfd 100%);
+  border: 1px solid #d6d6e7;
+
+  cursor: pointer;
+}
+.login__fb {
+  color: rgb(154, 154, 154);
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__google {
+  color: rgb(154, 154, 154);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login_forgt {
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 4px;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+}
+.login_forgt a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.loginpage__signupoption {
+  margin-top: 25px;
+  height: 56px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+.loginPage__signin,
+.loginPage__signup {
+  margin-top: 20px;
+}
+.loginPage__signin span,
+.loginPage__signup span {
+  cursor: pointer;
+}
+
+.loginPage__downloadSection {
+  height: 105px;
+  width: 350px;
+  text-align: center;
+  margin-top: 20px;
+}
+.loginPage__option {
+  margin-top: 20px;
+}
+.loginPage_dwimg {
+  margin: 5px;
+}
+
+.negative.message {
+  background-color: #fff6f6;
+  color: #9f3a38;
+}
+
+/* NewIdentity */
+.imgfile_userImgbox {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imgfile_userImgbox img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: inherit;
+}
+
+.user-file {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.user-label {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height: 36px;
+  width: 120px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #0395f6;
+  background-color: #0395f6;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}

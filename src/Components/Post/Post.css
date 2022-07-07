@@ -1,0 +1,118 @@
+.post__container {
+  max-width: 615px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  margin-bottom: 25px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+@media (min-width: 641px) {
+  .post__container {
+    border-radius: 8px;
+  }
+}
+
+.post__header {
+  height: 60px;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+.post__image {
+  min-width: 30px;
+  min-height: 30px;
+  margin: 10px;
+}
+.post__username {
+  font-weight: bold;
+  margin-left: 8px;
+}
+.post_reactimages {
+  display: flex;
+  justify-content: space-between;
+}
+.post_reactimage {
+  width: 25px;
+  height: 25px;
+  margin: 8px;
+}
+
+.post_comment {
+  margin: 10px 18px;
+}
+.post_comment_all {
+  margin: 4px 18px;
+  margin-bottom: 8px;
+  color: #727272;
+}
+.post_comment_date {
+  margin: 4px 18px;
+  margin-bottom: 8px;
+  color: #727272;
+}
+.post__commentform {
+  display: flex;
+  border-top: 1px solid rgba(114, 114, 114, 0.5);
+}
+.post__commentbox {
+  height: 45px;
+  width: 100%;
+  border: 0px;
+  border-top: 1px solid #dbdbdb;
+  font-size: 16px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: none;
+  outline: none;
+}
+.post__commentform button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #0095f6;
+  white-space: nowrap;
+}
+.post__commentform svg.icon-loading {
+  width: 30px;
+  height: 30px;
+}
+.post__commentform svg.icon-loading g {
+  fill: #000;
+}
+.post__userImgbox {
+  width: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.post__userImgbox_inner {
+  padding-top: 100%;
+}
+.post__userImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.post__userImg {
+  width: 100%;
+}
+.imgbox {
+  width: 100%;
+  overflow: hidden;
+}
+.imgbox .imgbox_inner {
+  padding-top: 100%;
+}
+.imgbox .imgbox_inner .images {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}

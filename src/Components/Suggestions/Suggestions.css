@@ -1,0 +1,43 @@
+.suggestions__container {
+  width: 325px;
+  height: 290px;
+  margin-top: 25px;
+}
+.suggestions__header {
+  font-weight: bold;
+  color: #8e8e8e;
+}
+.suggestions__body {
+  height: 256px;
+  height: 290px;
+  margin-top: 10px;
+}
+.suggestions__friends {
+  align-items: center;
+  display: flex;
+  padding: 5px 0px;
+  width: 300px;
+}
+.suggestions__imageBox {
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+.suggestions__info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suggestions__username {
+  font-weight: bold;
+  margin: 10px;
+}
+.suggestions__follow {
+  font-weight: bold;
+  margin: 5px;
+  color: #0095f6;
+  font-size: 13px;
+}

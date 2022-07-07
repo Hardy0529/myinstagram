@@ -1,0 +1,116 @@
+.memberInfo {
+  display: flex;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.memberInfo-imgbox {
+  width: 77px;
+  /* height: 77px; */
+  overflow: hidden;
+  border-radius: 50%;
+}
+.memberInfo-info {
+  width: calc(100% - 77px);
+  padding-left: 28px;
+}
+.memberInfo .memberInfo-info .memberInfo-user .memberInfo-username {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 27px;
+  line-height: 32px;
+  color: rgba(38, 38, 38);
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.memberInfo-setting .memberInfo_setting_button {
+  display: block;
+  border: 1px solid rgb(219, 219, 219);
+  color: rgba(38, 38, 38);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 250px;
+  line-height: 30px;
+  text-align: center;
+}
+@media (min-width: 735px) {
+  .memberInfo-imgbox {
+    width: 150px;
+    height: 150px;
+  }
+  .memberInfo-info {
+    width: calc(100% - 150px);
+  }
+
+  .memberInfo .memberInfo-info .memberInfo-user {
+    display: flex;
+    margin-bottom: 0px;
+  }
+  .memberInfo-setting .memberInfo_setting_button {
+    line-height: 30px;
+    font-size: 17px;
+    padding: 0 8px;
+    margin-left: 25px;
+  }
+}
+.memberInfo-interactive span {
+  text-align: center;
+  padding: 12px 0px;
+  flex: 1;
+}
+.memberInfo-interactive-mobile {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid rgba(219, 219, 219);
+}
+@media (min-width: 735px) {
+  .memberInfo-interactive-mobile {
+    display: none;
+  }
+}
+.memberInfo-interactive-mobile > div {
+  text-align: center;
+  padding: 8px 0px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  color: #ccc;
+}
+.memberInfo-interactive-mobile > div span {
+  color: #000;
+}
+.memberInfo-interactive {
+  display: none;
+  width: 100%;
+  max-width: 280px;
+  justify-content: space-between;
+}
+@media (min-width: 735px) {
+  .memberInfo-interactive {
+    display: flex;
+  }
+}
+.memberInfo-interactive > div {
+  text-align: center;
+  padding: 12px 0px;
+  padding-top: 0px;
+  display: flex;
+
+  align-items: center;
+  font-size: 17px;
+  color: #262626;
+}
+.memberInfo-interactive > div span {
+  margin-right: 8px;
+  font-size: 17px;
+}
+@media (min-width: 735px) {
+  .memberInfo-interactive-mobile {
+    display: none;
+  }
+}

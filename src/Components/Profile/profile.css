@@ -1,0 +1,8 @@
+.profile {
+  box-sizing: content-box;
+  padding: 100px 0px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 935px;
+  overflow: hidden;
+}

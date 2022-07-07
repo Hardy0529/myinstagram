@@ -1,0 +1,31 @@
+.myCollect-imgbox {
+  width: 100%;
+}
+.myCollect-imgbox .myCollect-imgbox-inner {
+  padding-top: 100%;
+}
+.myCollect-imgbox .myCollect-imgbox-inner .myCollect-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-position: center;
+  background-size: cover;
+}
+.myCollect-imgbox::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  left: 0px;
+  top: 0px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.myCollect-imgbox:hover::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}

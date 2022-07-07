@@ -1,0 +1,71 @@
+.mypost-imgbox {
+  width: 100%;
+}
+.mypost-imgbox .mypost-imgbox-inner {
+  padding-top: 100%;
+}
+.mypost-imgbox .mypost-imgbox-inner .mypost-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-position: center;
+  background-size: cover;
+}
+.mypost-imgbox::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  left: 0px;
+  top: 0px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.mypostImg_container:hover .mypost-imgbox::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+.post_interactive {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+  /* visibility: hidden;  */
+  color: #fff;
+}
+.mypostImg_container:hover .post_interactive {
+  opacity: 1;
+  /* visibility: hidden; */
+}
+.post_interactive span {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.likeIcon {
+  margin-right: 7px;
+  margin-top: 0px;
+  width: 19px;
+  height: 19px;
+  background-position-x: -340px;
+  background-position-y: -333px;
+  background-image: url("https://static.cdninstagram.com/rsrc.php/v3/y5/r/bve3a0HeZc8.png");
+}
+.commentIcon {
+  margin-right: 7px;
+  margin-top: 0px;
+  width: 19px;
+  height: 19px;
+  background-image: url("https://static.cdninstagram.com/rsrc.php/v3/y5/r/bve3a0HeZc8.png");
+  background-position-x: -382px;
+  background-position-y: -333px;
+}

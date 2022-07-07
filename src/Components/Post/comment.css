@@ -1,0 +1,122 @@
+.commentBox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.comment_close {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.comment_close_icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.comment_content_postBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.comment_container {
+  background-color: #fff;
+  /* padding: 24px; */
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1100;
+  margin: 0 auto;
+}
+
+.comment_user {
+  height: 335px;
+  padding: 16px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  overflow-y: scroll;
+}
+.comment_content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.comment_Imagebox {
+  display: none;
+}
+
+@media (min-width: 940px) {
+  .comment_Imagebox {
+    height: 550px;
+    width: 550px;
+    object-fit: cover;
+    display: block;
+  }
+}
+.comment_Image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.comment_content_post {
+  width: 350px;
+}
+.comment_content_post_user {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #727272;
+}
+
+.comment_content_post_userImgbox {
+  width: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #bbb;
+}
+
+.comment_content_post_userName {
+  margin-left: 16px;
+}
+.comment_post_reactimages {
+  padding: 0px 8px;
+}
+
+.comment__item {
+  padding-top: 16px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment__user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment__info {
+  color: #000;
+  margin: 0 16px;
+
+  margin-left: 46px;
+}
+
+.comment__username {
+  color: #000;
+  margin-bottom: 4px;
+  display: block;
+  margin: 0 16px;
+}
+.comment__imageBox {
+  width: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  flex: 1 0 auto;
+}

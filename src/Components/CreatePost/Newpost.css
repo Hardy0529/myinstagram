@@ -1,0 +1,238 @@
+/*-------------------------*/
+/* $Newpost Loding
+---------------------------*/
+.newpost_Loding {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1500;
+}
+.newpost_Loding svg.icon-loading {
+  width: 50px;
+  height: 50px;
+}
+
+/*-------------------------*/
+/* $Newpost
+---------------------------*/
+.newpost {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+/* Newpost Close */
+.newpost_close {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.newpost_close_icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* Newpost */
+.newpost_container {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1100;
+  margin: 0 auto;
+}
+.newpost_header {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px;
+  font-size: 16px;
+  color: #262626;
+  text-align: center;
+  border-bottom: 1px solid rgb(38, 38, 38);
+}
+
+/* imgbox */
+.newpost_Imgbox {
+  height: 280px;
+  width: 280px;
+}
+@media (min-width: 576px) {
+  .newpost_Imgbox {
+    height: 320px;
+    width: 320px;
+  }
+}
+@media (min-width: 990px) {
+  .newpost_Imgbox {
+    height: 550px;
+    width: 550px;
+  }
+}
+.newpost_file {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+.newpost_photo {
+  padding: 8px 16px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newpost_photo-content {
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  padding: 8px 0px;
+  white-space: nowrap;
+  color: rgb(38, 38, 38);
+}
+@media (min-width: 576px) {
+  .newpost_photo-content {
+    font-size: 20px;
+  }
+}
+@media (min-width: 990px) {
+  .newpost_photo-content {
+    font-size: 24px;
+  }
+}
+.newpost_photo-label {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height: 36px;
+  width: 120px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #0395f6;
+  background-color: #0395f6;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.newpost_header-Next,
+.newpost_header-Previous,
+.newpost_header-share {
+  position: absolute;
+  padding: 0px 16px;
+  font-size: 14px;
+}
+.newpost_header-Next {
+  right: 0px;
+}
+.newpost_header-Previous {
+  left: 0px;
+}
+.newpost_header-share {
+  right: 0px;
+  color: #0095f6;
+}
+.newpost_createPost {
+  display: block;
+  flex-wrap: wrap;
+}
+@media (min-width: 576px) {
+  .newpost_createPost {
+    display: block;
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 990px) {
+  .newpost_createPost {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+/* imgbox */
+.newpost_createPost-Imgbox {
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .newpost_createPost-Imgbox {
+    height: 320px;
+    width: 320px;
+  }
+}
+@media (min-width: 990px) {
+  .newpost_createPost-Imgbox {
+    height: 550px;
+    width: 550px;
+  }
+}
+.newpost_createPost-Imgbox .newpost_createPost-Image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Post */
+.newpost_post {
+  width: 100%;
+  padding: 8px;
+}
+@media (min-width: 576px) {
+  .newpost_post {
+    width: 100%;
+    padding: 16px;
+  }
+}
+@media (min-width: 990px) {
+  .newpost_post {
+    width: 350px;
+    padding: 16px;
+  }
+}
+.newpost_post_user {
+  display: flex;
+  align-items: center;
+}
+
+.newpost_post_userImgbox {
+  width: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.newpost_post_userName {
+  margin-left: 16px;
+}
+.newpost_content_update {
+  border: 0px;
+  outline: 0px;
+  color: #1c1c1c;
+  width: 100% !important;
+  margin-top: 8px;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+textarea.newpost_content_update {
+  resize: none;
+}
