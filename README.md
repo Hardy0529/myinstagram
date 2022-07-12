@@ -24,7 +24,23 @@ React 加上 Firebase 打造社群網站<br/>
 
 ## 技術開發
 
+
 React 加上 Firebase 打造社群網站，
+
+社群網站主要使用 React 加上 Firebase 架設而成。
+
+串接 Firebase Firestore 實現發表文章、留言、按讚、收藏、會員資料、追蹤
+
+
+利用拖移將圖片上傳至 Firebase Storage 雲端。
+
+引入react-router-dom
+
+串接 Firebase Authentication  建立會員系統、第三方登入、忘記密碼
+
+Firebase Extensions  監聽集合 利用 Algolia 實現搜尋服務串接
+
+手刻頁面版型，自行撰寫 RWD 響應式網頁
 
 ### firebse
 
