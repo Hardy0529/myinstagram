@@ -28,7 +28,7 @@ React 加上 Firebase 打造社群網站，
 
 ### firebse
 
-| Firestore | 發表文章、留言、留言、按讚、收藏、會員資、追蹤 | <br/>
+| Firestore | 發表文章、留言、按讚、收藏、會員資、追蹤 | <br/>
 | Storage | 文章圖片、會員頭像 |<br/>
 | Authentication | 會員登入、會員註冊、google 登入、facebook 登入、忘記密碼、 |<br/>
 | Hosting | 網站部署 ｜<br/>
